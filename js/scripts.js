@@ -15,7 +15,7 @@ var height = parseInt(prompt("enter a number"){
 if(width===length===height){
   alert("This is an equilateral")
 };
-else if (width===length!==height){
+else if (width===length && length!==height || width!==height){
   alert("This is an isosceles")
 };
 else if (width!==length!==height){
