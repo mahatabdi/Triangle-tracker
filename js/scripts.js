@@ -1,26 +1,22 @@
-var triangle = [width, length, height];
+function determine(){
 
-var length = parseInt(prompt("enter a number"){
-  if(isNaN(length));
-  alert("please enter a number")
-});
-var width = parseInt(prompt("enter a number"){
-  if(isNaN(width));
-  alert("please enter a  number")
-});
-var height = parseInt(prompt("enter a number"){
-  if(isNaN(height);
-  alert("please enter a number")
-});
-if(width===length===height){
-  alert("This is an equilateral")
-};
-else if (width===length && length!==height || width!==height){
-  alert("This is an isosceles")
-};
-else if (width!==length!==height){
-  alert("This is a scalene")
-};
+var length=parseFloat(prompt"Enter length");
+var width=parseFloat(prompt"Enter width");
+var height=parseFloat(prompt"Enter height");
+
+if(length===width && length===height && width===height){
+  alert("It is an equilateral triangle");
+}
+
+else if(length===width || length===height || width===height){
+  alert("It is an isosceles triangle");
+}
+
+else if((length+width)<=height || length+height<=width || width+height<=length){
+  alert("It is not a triangle");
+}
 else(){
   alert("Not a triangle")
 }
+ }
+deteremine();
