@@ -1,15 +1,26 @@
-var length = parseInt(prompt("enter a length in centimeters"));
-var width = parseInt(prompt("enter a width in centimeters"));
-var height = parseInt(prompt("enter a height in centimeters"));
-if(length===width && length===height && width===height){
-  alert("This is an equilateral triangle!")
+var triangle = [width, length, height];
+
+var length = parseInt(prompt("enter a number"){
+  if(isNaN(length));
+  alert("please enter a number")
+});
+var width = parseInt(prompt("enter a number"){
+  if(isNaN(width));
+  alert("please enter a  number")
+});
+var height = parseInt(prompt("enter a number"){
+  if(isNaN(height);
+  alert("please enter a number")
+});
+if(width===length===height){
+  alert("This is an equilateral")
 };
-else if(length===width && width===height && length!==height || length!== width){
-  alert("This is an isosceles triangle!")
+else if (width===length!==height){
+  alert("This is an isosceles")
 };
-else if(length!== width && width!== height && height!==length){
-  alert("This is a scalene triangle!")
+else if (width!==length!==height){
+  alert("This is a scalene")
 };
-else(isNaN){
-  alert("Please enter a number!")
-};
+else(){
+  alert("Not a triangle")
+}
