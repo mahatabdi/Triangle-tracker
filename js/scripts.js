@@ -1,5 +1,4 @@
-//function determine(){
-
+function determine(){
 var length=parseFloat(prompt("Enter length"));
 var width=parseFloat(prompt("Enter width"));
 var height=parseFloat(prompt("Enter height"));
@@ -13,8 +12,8 @@ else if(length===width && length===height && width===height){
 
 else if(length===width || length===height || width===height){
   alert("It is an isosceles triangle");
-}
+
 else{
   alert("scalene");
 }
-// }
+determine();
