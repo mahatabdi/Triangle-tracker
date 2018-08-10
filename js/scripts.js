@@ -1,4 +1,4 @@
-function determine(){
+// function determine(){
 var length=parseFloat(prompt("Enter length"));
 var width=parseFloat(prompt("Enter width"));
 var height=parseFloat(prompt("Enter height"));
@@ -16,4 +16,4 @@ else if(length===width || length===height || width===height){
 else{
   alert("scalene");
 }
-determine();
+// determine();
