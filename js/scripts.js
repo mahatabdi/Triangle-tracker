@@ -4,12 +4,12 @@ var height = parseInt(prompt("enter a height in centimeters"));
 if(length===width && length===height && width===height){
   alert("This is an equilateral triangle!")
 };
-else if(length===width && width===height || length!==height){
+else if(length===width && width===height && length!==height || length!== width){
   alert("This is an isosceles triangle!")
 };
 else if(length!== width && width!== height && height!==length){
   alert("This is a scalene triangle!")
 };
 else(isNaN){
-  alert("Not a triangle")
+  alert("Please enter a number!")
 };
